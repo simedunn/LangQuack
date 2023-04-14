@@ -1,6 +1,6 @@
 {
-  "name": "Hello World",
-  "description": "This is for testing",
+  "name": "LangQuack",
+  "description": "Helps you learn a language quick",
   "version": "0.0.1",
   "manifest_version": 3,
   "action": {

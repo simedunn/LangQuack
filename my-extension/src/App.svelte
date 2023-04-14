@@ -9,7 +9,7 @@
   :global(*) {
     word-wrap: break-word;
   }
-  /* chrome extension */
+  /* chrome extension styling */
   :global(body) {
     width: 350px;
     height: 500px;
