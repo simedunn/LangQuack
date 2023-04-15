@@ -1,4 +1,8 @@
-<div class="bg-green-100 min-h-screen"> 
-  <h1>Hello World!</h1>
-  <p>This is my extension</p>
+<script>
+  import Langquack from '../components/langquack.svelte';
+import LangQuack from '../components/langquack.svelte'
+</script>
+
+<div>
+  <LangQuack/>
 </div>
