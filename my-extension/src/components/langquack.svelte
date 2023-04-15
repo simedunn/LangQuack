@@ -2,7 +2,7 @@
   import Form from '../components/form.svelte'
   import Results from '../components/results.svelte'
 
-  let submitted = false;
+  $: submitted = false;
 
 </script>
 
@@ -10,7 +10,7 @@
   <h1><b>LangQuack!</b></h1>
 
   {#if submitted == false}
-    <Form/> 
+    <Form /> 
   {:else}
     <Results/>
   {/if}
