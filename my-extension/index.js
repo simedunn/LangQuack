@@ -1,7 +1,3 @@
-import App from "./App.svelte";
-import "@unocss/reset/tailwind.css";
-import "uno.css";
-
 import { Configuration, OpenAIApi } from "openai";
 
 // get the open ai api key
@@ -21,8 +17,4 @@ const completion = await openai.createChatCompletion({
   ]
 });
 
-const app = new App({
-  target: document.getElementById("app"),
-});
-
-export default app;
+console.log(completion.data.choices[0].message);
